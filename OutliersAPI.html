@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Simple web Development Template</title>
+    
+
+	<style>
+    html {
+    height: 100%;
+    }
+    .body {
+    background: lightgreen;
+    }
+		* {
+			margin: 0;
+			padding: 0;
+			color: white;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 54px;
+    border-radius: 0px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.Nothing{
+			background-image:linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
+		}
+		.firstsection {
+			/* background-image:linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)); */
+			height: 400px;
+		}
+
+		.secondsection {
+			/* background-image:linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)); */
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: rgb(255, 255, 255);
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			height: 19px;
+			margin: 82px 21px;
+}
+
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.form-control{
+			color: black;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+            
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+    color: white;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.card-header{
+			text-align: center;
+			margin: auto;
+		}
+		.mb-3{
+		    
+			align-items: center;
+			margin: 9px 628px;
+			margin: 16px 542px;
+		}
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+        html {
+    height: 100%;
+    }
+    .body {
+    background: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
+    }
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<div class="cont s--inactive">
+					<a href="https://twitter.com/outliersapi" target="_blank" class="icon-link icon-link--twitter">
+					  <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png">
+					</a>
+				<!-- <a href="https://twitter.com/outliersapi" target="_blank" class="icon-link icon-link--twitter"></a>
+				<img src= "https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png"> -->
+			</div>
+			<li><a href="#web">About</a></li>
+			<li><a href="#program">Task description</a></li>
+			<li><a href="#course">Contact</a></li>
+		</ul>
+        
+	</nav>
+<section class="Nothing">
+	<section class="firstsection">
+        <!-- <div class="cont s--inactive">
+            <a href="https://twitter.com/outliersapi" target="_blank" class="icon-link icon-link--twitter">
+              <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png">
+            </a> -->
+		<div class="box-main">
+			<div class="firstHalf"><br><br><br><br>
+				<h1 class="text-big" id="web">Sentiment Analysis</h1>
+				<p class="text-small">
+					Sentiment analysis, also referred to as opinion mining,
+					is an approach to natural language processing (NLP) that 
+					identifies the emotional tone behind a body of text. 
+					This is a popular way for organizations to determine and 
+					\categorize opinions about a product, service, or idea.
+					It involves the use of data mining, machine learning (ML) and
+					artificial intelligence (AI) to mine text for sentiment and
+					subjective information.Sentiment analysis systems help organizations
+					gather insights from unorganized and unstructured text that comes 
+					from online sources such as emails, blog posts, support tickets,
+					web chats, social media channels, forums and comments. Algorithms
+					replace manual data processing by implementing rule-based, automatic
+					or hybrid methods. Rule-based systems perform sentiment analysis
+					based on predefined, lexicon-based rules while automatic systems
+					learn from data with machine learning techniques. A hybrid sentiment
+					analysis combines both approaches.
+					<br>
+					<br>
+					<br>
+					•	To trail the growth of panic amongst Twitter® users based on a specific keyword<br>
+					•	To analyze the sentiments of Indians post lockdown imposed by the government<br>
+					•	To extract an exact idea by detecting the primary topics tweeted by netizens related to COVID-19 pandemic.<br>
+					•	To study how the Chinese Weibo users were affected emotionally on and after 20th January, 2020.
+
+				</p>
+
+
+			</div>
+		</div>
+		<!-- <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card mt-4">
+						<div class="card-header">
+							<h4>Search Tweets Here</h4>
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-7">
+	
+									<form action="/" method="GET">
+										<div class="input-group mb-3">
+											<input type="text" name="search" class="form-control" placeholder="1-100 Tweets">
+											<button type="submit" class="btn btn-primary">Search</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card mt-4">
+								</div>
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-7">
+			
+											<form action="" method="GET">
+												<div class="input-group mb-3">
+													<input type="text" name="search" class="form-control" placeholder="Sentiment">
+												</div>
+											</form>
+			
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+	</section>
+
+	<section class="secondsection">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h4>Search Tweets Here</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-7">
+
+                                <form action="" method="GET">
+                                    <div class="input-group mb-3">
+                                        <input type="text" name="search"class="form-control" placeholder="Write Tweets">
+                                        <button type="submit" class="btn btn-primary">Search</button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="card mt-4">
+							</div>
+							<div class="card-body">
+								<div class="row">
+									<div class="col-md-7">
+		
+										<form action="/" method="GET">
+											<div class="input-group mb-3">
+												<input type="text" name="search" class="form-control" placeholder="Sentiment">
+											</div>
+										</form>
+		
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> 
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+					<br>
+					Task description
+				</h1>
+				<p class="text-small">
+					
+					This competition is for sentiment analysis of Tweets related to the Covid-19 pandemic, which is 
+					a multi-label text classification task. Since the outbreak of coronavirus, it has affected more 
+					than 180 countries where massive losses in the economy and jobs globally and confining about 58% 
+					of the global population are caused. The research on people’s feelings is essential for keeping 
+					mental health and informed about Covid-19. In this competition, the released training data contains
+					1.6 million labeled tweets while the released validation data have 10,000 pieces of unlabeled 
+					tweets. The training data have 6 columns, containing Target, Tweet ID, Date, Flag, User and Text. 
+					Note that the orders are shown as , Negative(0), Neutral(2), Positive (4). For example, if the labels
+					is 0, it means that this piece of the tweet is labeled as Neutral . The public ranking of the competition
+					will be based on the prediction on the validation dataset. The final ranking will be based on a private
+					 testing dataset that has the same distribution as the training and validation dataset.
+					 <br>
+					 <br>
+					• Python Code-> Twitter API->Login to twitter account using generated key.<br>
+					• Topic selection ->Time selection->Extraction of related tweets in a CSV file(testing dataset).<br>
+					• Data cleansing of testing dataset->Cleaned dataset(testing).<br>
+					• Neural network model training using training dataset.<br>
+					• Generating the label of sentiments of the extracted tweets using the model.<br>
+					• Checking of classification accuracy
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+			<h1 class="sectionTag text-big">Future Scope</h1>
+
+			<p class="sectionSubTag text-small">
+				We can further improve our progress by making it real-time... i.e  when someone 
+				will tweet something, it will go through our model and will automatically get the 
+				label context immediately on the Twitter app itself.
+				<br>
+				<br>
+				<br>
+				<br>
+				<center>Team Outliers<br>
+				<center>E-mail - outliers2k22@gmail.com
+			</p>
+
+
+		</div>
+<!-- 
+		<div class="thumbnail">
+			<img src= "img.png" alt="laptop image">
+		</div> -->
+	</section>
+</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
