@@ -1,11 +1,12 @@
 # Sentiment-Analysis of-COVID-19 Tweets
 
 <p align="center">
-  <img src="![Twitterlogo](https://user-images.githubusercontent.com/109382325/215749927-f972d837-9df8-4c6a-8145-85b679cf9b35.png)
+  <img src="![download](https://user-images.githubusercontent.com/109382325/215750765-868e934b-1bc9-497c-a857-cb4c1fd8af89.jpg)
+")
 "/>
 </p>
    
-Hello there! Texts from twitter has been collected to decide the impact, it has been causing the public .We took a testing dataset and used neural network – Model training for testing the retrieved tweets and gain prediction of the sentiments from their tweets.
+Hello there! The proposed approach is divided into four phases: 1) pre-processing, 2) keyword trend analysis, 3) word embeddings for feature extraction, and 4) classification methods. The CovidSenti dataset is divided into two chunks, training and testing. We take care of the various factors of the dataset, such as over-fitting, noisy or small and large datasets. The main objective of this study is to evaluate the classification performance of state-of-the-art classifiers on the COVIDSenti dataset and then attempt to improve performance by extracting key features of tweets. The proposed technique classifies the CovidSenti dataset with higher accuracy and competently for the COVIDSenti dataset containing COVID-19 associated Twitter posts
 
 ## About Us
 
