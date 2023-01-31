@@ -1,7 +1,8 @@
 # Sentiment-Analysis of-COVID-19 Tweets
 
 <p align="center">
-  <img src=" "/>
+  <img src="![Twitterlogo](https://user-images.githubusercontent.com/109382325/215749927-f972d837-9df8-4c6a-8145-85b679cf9b35.png)
+"/>
 </p>
    
 Hello there! Texts from twitter has been collected to decide the impact, it has been causing the public .We took a testing dataset and used neural network – Model training for testing the retrieved tweets and gain prediction of the sentiments from their tweets.
