@@ -1,4 +1,4 @@
-# Sentiment Analysis of COVID-19 Tweets
+# Sentiment Analysis of COVID-19 Tweets [![Actions Status](https://github.com/cfgnunes/numerical-methods-python/workflows/build/badge.svg)](https://github.com/ThisIs-Developer/Sentiment-Analysis-of-Covid-19-Tweets)
  ![download](https://user-images.githubusercontent.com/109382325/215750934-f1e3e1f4-5ef9-4690-8933-ff55595cec21.jpg)
 
    
