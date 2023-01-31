@@ -5,6 +5,9 @@
 ")
 "/>
 </p>
+ 
+ ![download](https://user-images.githubusercontent.com/109382325/215750934-f1e3e1f4-5ef9-4690-8933-ff55595cec21.jpg)
+
    
 Hello there! The proposed approach is divided into four phases: 1) pre-processing, 2) keyword trend analysis, 3) word embeddings for feature extraction, and 4) classification methods. The CovidSenti dataset is divided into two chunks, training and testing. We take care of the various factors of the dataset, such as over-fitting, noisy or small and large datasets. The main objective of this study is to evaluate the classification performance of state-of-the-art classifiers on the COVIDSenti dataset and then attempt to improve performance by extracting key features of tweets. The proposed technique classifies the CovidSenti dataset with higher accuracy and competently for the COVIDSenti dataset containing COVID-19 associated Twitter posts
 
@@ -77,3 +80,6 @@ We create the website for:
 <p align="center">
   <img src="https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/panda-mask.jpg">
 </p>
+
+![205451332-8a135418-11ca-4b4f-941c-91b54a3c18a8](https://user-images.githubusercontent.com/109382325/215750964-218bfc8e-f2cf-4d4a-93bb-ca9b87be5d77.jpeg)
+
