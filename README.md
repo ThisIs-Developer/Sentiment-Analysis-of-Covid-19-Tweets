@@ -1,11 +1,4 @@
 # Sentiment-Analysis of-COVID-19 Tweets
-
-<p align="center">
-  <img src="![download](https://user-images.githubusercontent.com/109382325/215750765-868e934b-1bc9-497c-a857-cb4c1fd8af89.jpg)
-")
-"/>
-</p>
- 
  ![download](https://user-images.githubusercontent.com/109382325/215750934-f1e3e1f4-5ef9-4690-8933-ff55595cec21.jpg)
 
    
@@ -77,9 +70,5 @@ We create the website for:
 
 ### Thanks for checking out the repo!
 
-<p align="center">
-  <img src="https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/panda-mask.jpg">
-</p>
-
 ![205451332-8a135418-11ca-4b4f-941c-91b54a3c18a8](https://user-images.githubusercontent.com/109382325/215750964-218bfc8e-f2cf-4d4a-93bb-ca9b87be5d77.jpeg)
-
+![205451316-73b971b8-9132-4d53-8e22-e7e718ff1b3b](https://user-images.githubusercontent.com/109382325/215751121-132cabae-2ce1-421c-b0b6-245983455823.png)
