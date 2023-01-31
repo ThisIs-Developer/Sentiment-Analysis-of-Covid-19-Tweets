@@ -9,7 +9,7 @@ Hello there! The proposed approach is divided into four phases: 1) pre-processin
 [@Baivab Sarkar](https://github.com/ThisIs-Developer)
 [@Arpan Bhattacharya](https://github.com/Arpan550)
 [@Bhishmadev Ghosh](https://github.com/bhishma620)
-[@Ayan Chatterjee]
+@Ayan Chatterjee
 
 ## Development Phase
 
@@ -71,5 +71,5 @@ We create the website for:
 
 ### Thanks for checking out the repo!
 
-![205451332-8a135418-11ca-4b4f-941c-91b54a3c18a8](https://user-images.githubusercontent.com/109382325/215750964-218bfc8e-f2cf-4d4a-93bb-ca9b87be5d77.jpeg)
 ![205451316-73b971b8-9132-4d53-8e22-e7e718ff1b3b](https://user-images.githubusercontent.com/109382325/215751121-132cabae-2ce1-421c-b0b6-245983455823.png)
+![205451332-8a135418-11ca-4b4f-941c-91b54a3c18a8](https://user-images.githubusercontent.com/109382325/215750964-218bfc8e-f2cf-4d4a-93bb-ca9b87be5d77.jpeg)
