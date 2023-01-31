@@ -6,10 +6,10 @@ Hello there! The proposed approach is divided into four phases: 1) pre-processin
 
 ## About Us
 
-[@Baivab Sarkar](https://github.com/ThisIs-Developer)
-[@Arpan Bhattacharya](https://github.com/Arpan550)
-[@Bhishmadev Ghosh](https://github.com/bhishma620)
-[@Ayan Chatterjee](https://github.com/Ayan123C)
+* [@Baivab Sarkar](https://github.com/ThisIs-Developer)
+* [@Arpan Bhattacharya](https://github.com/Arpan550)
+* [@Bhishmadev Ghosh](https://github.com/bhishma620)
+* [@Ayan Chatterjee](https://github.com/Ayan123C)
 
 ## Development Phase
 
